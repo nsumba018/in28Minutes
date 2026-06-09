@@ -6,6 +6,9 @@ public class Person {
     private String email;
     private String phoneNumber;
 
+    public Person(String name) {
+        this.name = name;
+    }
 
     public String toString(){
         return String.format("name: %s, email: %s, phoneNumber: %s", name, email,phoneNumber);

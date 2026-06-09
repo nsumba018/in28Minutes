@@ -4,8 +4,9 @@ package com.rab;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person();
-        Student student = new Student();
+        Person person = new Person("Range");
+        Student student = new Student("Herve", "AUCA");
+        Employee employee = new Employee("Irakoze","Cloud Engineer");
         String value = person.toString();
         person.setName("Herve");
         person.setEmail("herve.irakoze@auca.ac.rw");
@@ -13,5 +14,6 @@ public class Main {
         student.setCollege("Auca");
         System.out.println(person);
         System.out.println(student);
+        System.out.println(employee);
     }
 }
