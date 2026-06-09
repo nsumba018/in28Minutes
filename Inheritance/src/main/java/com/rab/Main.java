@@ -12,6 +12,6 @@ public class Main {
         student.setName("Nsumba");
         student.setCollege("Auca");
         System.out.println(person);
-        System.out.println(value);
+        System.out.println(student);
     }
 }

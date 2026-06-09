@@ -19,4 +19,8 @@ public class Student  extends Person{
     public void setFaculty(String faculty) {
         this.faculty = faculty;
     }
+
+    public String toString(){
+        return super.toString() + ", College: " + college + ", Faculty: " + faculty;
+    }
 }

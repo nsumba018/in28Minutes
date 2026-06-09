@@ -7,7 +7,9 @@ public class Person {
     private String phoneNumber;
 
 
-
+    public String toString(){
+        return String.format("name: %s, email: %s, phoneNumber: %s", name, email,phoneNumber);
+    }
 
     public String getName() {
         return name;
