@@ -34,7 +34,7 @@ public class ThreadsBasicsRunner {
 
         // wait for task1 to finish
         task1.join();
-        
+
         System.out.print("Task3 Kicked Off");
         for(int i = 300; i < 399; i++)
             System.out.print(i + " ");
